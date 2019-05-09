@@ -6,14 +6,14 @@
     so "a" is considered a different type of stone from "A".
 */
 public int numJewelsInStones(String J, String S) {
-        List<Character> common = new ArrayList<>(); 
-        
-        for (char c: S.toCharArray()) {
-            if ((J.indexOf(c) > -1)) {
-                common.add(c); 
-            }
+    List<Character> common = new ArrayList<>(); 
+    
+    for (char c: S.toCharArray()) {
+        if ((J.indexOf(c) > -1)) {
+            common.add(c); 
         }
-        System.out.println(common); 
-        return common.size();
-        
     }
+    System.out.println(common); 
+    return common.size();
+    
+}
