@@ -11,7 +11,7 @@ Return the maximum number of kinds of candies the sister could gain.
 public int distributeCandies(int[] candies) {
     HashSet<Integer> candySet = new HashSet<>();
     for (int i: candies) {
-        set.add(i);
+        candyset.add(i);
     }
     return Math.min(candySet.size(), candies.length / 2);
 }
